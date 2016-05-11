@@ -1,6 +1,6 @@
 # rule-select
 
-Select and apply CSS rules with CSS selectors
+Select and apply css rules with css selectors
 
 ## Usage
 
@@ -29,7 +29,7 @@ span
 
 ## Example
 
-![screenshot](http://imgur.com/Vcy6DzJ)
+![screenshot](http://i.imgur.com/Vcy6DzJ.png)
 
 In this simple example, our app has loaded the [materialize css framework] on
 the page. But instead of applying a lot of classes and rules to our markup, we
