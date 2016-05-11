@@ -1,0 +1,10 @@
+{
+  "name": "ui-kit-rule-select",
+  "version": "0.1.0",
+  "description": "select and apply css rules with css selectors",
+  "author": "Michael Andrew Vanasse <mail@mndvns.com>",
+  "dependencies": {
+    "change-case": "^2.3.1",
+    "put-selector": "^0.3.6"
+  }
+}
