@@ -31,7 +31,7 @@ span
 
 ![screenshot](http://i.imgur.com/Vcy6DzJ.png)
 
-In this simple example, our app has loaded the [materialize css framework] on
+In this simple example, our app has loaded the [materialize css framework](https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.css) on
 the page. But instead of applying a lot of classes and rules to our markup, we
 can pluck out the rule values we want and assign them individually to rules
 and selectors that we choose.
