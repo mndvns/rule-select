@@ -11,14 +11,13 @@ app.jade:
 import {mount} from 'ui-kit-rule-select'
 import './index.ess'
 
-:module
-  export var mixins = [mount];
+export var mixins = [mount];
 ```
 
 index.ess:
 
 ```
-import R from 'src/modules/rule-select/index.js'
+import R from 'ui-kit-rule-select'
 
 div
   color red
@@ -50,7 +49,7 @@ h3 nice
 ess:
 
 ```stylus
-import R from 'src/modules/rule-select/index.js'
+import R from 'ui-kit-rule-select'
 
 // with this function, you can use css
 // rules on the page as variables
@@ -59,7 +58,7 @@ h1
   color blue
 
 h2
-  background = R['h1']['color']
+  background-color = R['h1']['color']
 
 // external scripts works just as well
 
@@ -82,9 +81,9 @@ h3
   --accent = R['.purple.darken-2']['background-color']
 
 .primary
-  background var(--primary)
+  background-color var(--primary)
 .accent
-  background var(--accent)
+  background-color var(--accent)
 ```
 
 ## License
